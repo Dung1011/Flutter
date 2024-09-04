@@ -1,6 +1,9 @@
 void main(){
-  int a = 5;
-  String b = getIntFromString(a);
-  print(a);
-  print(b);
+  int number = 5;
+  String b = getIntFromString(number);
+  double c = getIntfromDouble(number);
+
+  print('$number');
+  print('$b');
+  print('$c');
 }

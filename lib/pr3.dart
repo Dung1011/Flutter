@@ -38,4 +38,13 @@ void main() {
   Example ex2 = Example();
   ex2.printInfo();
 }
-//
+//Viết các hàm chuyển đổi qua lại giữa string,int,double
+void main(){
+  int number = 5;
+  String b = getIntFromString(number);
+  double c = getIntfromDouble(number);
+
+  print('$number');
+  print('$b');
+  print('$c');
+}
