@@ -17,3 +17,4 @@ void so0(){
   if(0%2==0){print('$a là số chẵn');}
   else{print('$a là số lẻ');}
 }
+
